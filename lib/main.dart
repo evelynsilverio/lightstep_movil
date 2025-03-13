@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ligthstep/screens/iniciar_sesion.dart';
 import 'package:ligthstep/screens/perfil.dart';
+import 'package:ligthstep/widgets/tabbar.dart';
 // import 'package:light_step_app/screens/personalizacion.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Roboto Mono',
         scaffoldBackgroundColor: Colors.transparent,
       ),
-      home: PerfilScreen(),
+      home: Perfil(),
     );
   }
 }

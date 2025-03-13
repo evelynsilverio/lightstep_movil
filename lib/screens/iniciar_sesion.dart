@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ligthstep/widgets/appbar.dart';
-import '../widgets/scaffold_con_degradado.dart'; // Importa tu scaffold personalizado
+import 'package:ligthstep/widgets/appbar.dart'; // Asegúrate de importar AppBar
+import 'package:ligthstep/widgets/tabbar.dart'; // Tu TabBarScreen
+import '../widgets/scaffold_con_degradado.dart'; // Importa el scaffold con degradado
 
 class IniciarSesion extends StatefulWidget {
   const IniciarSesion({super.key});
@@ -14,12 +15,11 @@ class _IniciarSesionState extends State<IniciarSesion> {
   Widget build(BuildContext context) {
     return ScaffoldConDegradado(
       appBar: const AppbarStyle(title: "Iniciar Sesión"),
-      body: const Center(
-        child: Text(
-          "Contenido aquí",
-          style: TextStyle(color: Colors.white),
-        ),
-      ),
+      body: const TabBarScreen(), // Agregar el TabBarScreen aquí
     );
   }
 }
+
+
+
+

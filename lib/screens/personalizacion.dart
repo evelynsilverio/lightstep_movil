@@ -21,7 +21,7 @@ class _PersonalizacionState extends State<Personalizacion> {
           "Contenido",
           style: TextStyle(color: Colors.white),
         ),
-      ),
+      ), bottomNavigationBar: null,
     );
   }
 }
